@@ -18,6 +18,7 @@ builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddScoped<EmailVerification>();
 builder.Services.AddCustomServices();
 
+
 // Swagger setup
 builder.Services.AddSwaggerService();
 
